@@ -3,7 +3,7 @@ Sample describing autotools usage.
 
 ## Usage
 
-- Create and write `configure.ac` in root directory and a `Makefile.am` in each subdirectory containing source code.
+- Create and write `configure.ac` in root directory and a `Makefile.am` in root directory and each subdirectory containing source code.
   
 - Run `autoreconf --install` to perform configuration files and Makefile/Makefile.in generation\
     (`autoreconf` runs autotools toolchain in right order: `aclocal`, `autoconf`, `autoheader`, `automake`).
