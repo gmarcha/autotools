@@ -10,6 +10,8 @@ Sample describing autotools usage.
 
 - Use `./configure && make && sudo make install` to install package.
 
+- Use `./configure --prefix=/usr` to change installation path.
+
 ## Links
 
 - Official [documentation](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html).
