@@ -12,6 +12,8 @@ Sample describing autotools usage.
 
 - Use `./configure --prefix=/usr` to change installation path.
 
+- Use `make CC=<pathToCompiler> CFLAGS="<compilerFlags>"` to change compiler and compiler options (default to `gcc` and `-g -O2` respectively).
+
 ## Links
 
 - Official [documentation](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html).
